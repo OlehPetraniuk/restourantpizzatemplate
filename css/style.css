@@ -8563,3 +8563,238 @@ textarea.form-control {
     height: 1px;
     background: #fac564;
     margin: 0 auto; }
+
+.hero-wrap,
+.img,
+.blog-img,
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+@media (max-width: 767.98px) {
+  .img-about {
+    height: 400px;
+    margin-bottom: 30px; } }
+
+.image-popup {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+  opacity: 1; }
+
+.mfp-with-zoom.mfp-ready.mfp-bg {
+  opacity: 0.8; }
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0; }
+
+#section-counter {
+  position: relative;
+  z-index: 0; }
+  #section-counter .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .8; }
+
+.ftco-counter {
+  padding: 7em 0; }
+  @media (max-width: 1199.98px) {
+    .ftco-counter {
+      background-position: center center !important; } }
+  .ftco-counter .icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 0; }
+    .ftco-counter .icon:after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: '';
+      bordeR: 1px solid #fac564;
+      z-index: -1;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    .ftco-counter .icon span {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      color: #fac564; }
+  .ftco-counter .text strong.number {
+    font-weight: 400;
+    font-size: 30px;
+    color: #fac564; }
+  .ftco-counter .text span {
+    font-weight: 400;
+    font-size: 14px; }
+  .ftco-counter .text:hover .icon span, .ftco-counter .text:focus .icon span {
+    color: #000; }
+  .ftco-counter .text:hover .icon:after, .ftco-counter .text:focus .icon:after {
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+    background: #fac564; }
+  @media (max-width: 991.98px) {
+    .ftco-counter .counter-wrap {
+      margin-bottom: 40px !important; } }
+  .ftco-counter .ftco-number {
+    display: block;
+    color: #fff; }
+  .ftco-counter .ftco-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em; }
+
+.ftco-menu {
+  position: relative;
+  width: 100%;
+  display: block; }
+  .ftco-menu .nav-pills p {
+    margin-bottom: 0; }
+  .ftco-menu .nav-pills .nav-link {
+    border-radius: 0;
+    margin-bottom: 0;
+    color: #fac564;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    bordeR: 1px solid #fac564;
+    margin-left: 5px;
+    margin-right: 5px; }
+    .ftco-menu .nav-pills .nav-link.active, .ftco-menu .nav-pills .nav-link:hover {
+      color: black;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      background: #fac564;
+      border: 1px solid transparent; }
+      .ftco-menu .nav-pills .nav-link.active:after, .ftco-menu .nav-pills .nav-link:hover:after {
+        opacity: 1; }
+      @media (max-width: 767.98px) {
+        .ftco-menu .nav-pills .nav-link.active:after, .ftco-menu .nav-pills .nav-link:hover:after {
+          opacity: 0; } }
+    @media (max-width: 767.98px) {
+      .ftco-menu .nav-pills .nav-link {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px; } }
+
+.block-20 {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 270px; }
+
+.blog-entry {
+  overflow: hidden; }
+  @media (min-width: 768px) {
+    .blog-entry {
+      margin-bottom: 30px; } }
+  @media (max-width: 767.98px) {
+    .blog-entry {
+      margin-bottom: 30px; } }
+  .blog-entry .text {
+    position: relative; }
+    .blog-entry .text .heading {
+      font-size: 18px;
+      margin-bottom: 16px;
+      font-weight: 400; }
+      .blog-entry .text .heading a {
+        color: #fff; }
+        .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
+          color: #fac564; }
+  .blog-entry .meta > div {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 0;
+    font-size: 14px; }
+    .blog-entry .meta > div a {
+      color: gray;
+      font-size: 15px; }
+      .blog-entry .meta > div a:hover {
+        color: #666666; }
+
+.block-23 ul {
+  padding: 0; }
+  .block-23 ul li, .block-23 ul li > a {
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px; }
+  .block-23 ul li span {
+    color: rgba(255, 255, 255, 0.7); }
+  .block-23 ul li .icon, .block-23 ul li .text {
+    display: table-cell;
+    vertical-align: top; }
+  .block-23 ul li .icon {
+    width: 40px;
+    font-size: 18px;
+    padding-top: 2px;
+    color: white; }
+
+.block-6 {
+  margin-bottom: 40px; }
+
+.block-18 .icon > span {
+  font-size: 40px; }
+
+.block-18 .text strong {
+  font-size: 30px; }
+
+.block-18 .text span {
+  display: block; }
+
+.block-27 ul {
+  padding: 0;
+  margin: 0; }
+  .block-27 ul li {
+    display: inline-block;
+    margin-bottom: 4px;
+    font-weight: 400; }
+    .block-27 ul li a, .block-27 ul li span {
+      color: #fac564;
+      text-align: center;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 50%;
+      border: 1px solid #bf7e06; }
+    .block-27 ul li.active a, .block-27 ul li.active span {
+      background: #fac564;
+      color: #fff;
+      border: 1px solid transparent; }
