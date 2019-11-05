@@ -8095,3 +8095,41 @@ h1, h2, h3, h4, h5,
       background: #121618;
       background: url(../images/bg_4.jpg) no-repeat fixed;
       font-size: 16px; }
+
+@media (max-width: 991.98px) {
+  .ftco-menu .f-menu-img {
+    height: 300px; } }
+
+.menu-wrap .menu-img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%; }
+
+.menu-wrap .text h3 {
+  font-size: 22px; }
+  .menu-wrap .text h3 a {
+    color: #fff; }
+
+.menu-wrap .text .price {
+  font-size: 16px;
+  font-weight: 400; }
+  .menu-wrap .text .price span {
+    color: #fac564; }
+
+.ftco-appointment {
+  width: 100%;
+  position: relative;
+  background: #000; }
+  .ftco-appointment .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fac564;
+    opacity: 0; }
