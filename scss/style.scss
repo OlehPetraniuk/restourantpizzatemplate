@@ -770,3 +770,46 @@ h1, h2, h3, h4, h5,
 		}
 	}
 }
+
+//GALLERY
+.ftco-gallery{
+	padding-top: 7em;
+}
+.gallery{
+	display: block;
+	height: 300px;
+	position: relative;
+	.icon{
+		width: 50px;
+		height: 50px;
+		margin: 0 auto;
+		z-index: 0;
+		opacity: 0;
+		position: relative;
+		@include transition(.6s);
+		&:after{
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			width: 50px;
+			height: 50px;
+			content: '';
+			background: $primary;
+			z-index: -1;
+			@include transition(.6s);
+		}
+		span{
+			color: $white;
+		}
+	}
+	&:hover, &:focus{
+		.icon{
+			opacity: 1;
+			&:after{
+				transform: rotate(135deg);
+			}
+		}
+	}	
+}
