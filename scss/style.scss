@@ -865,3 +865,36 @@ h1, h2, h3, h4, h5,
 		}
 	}
 }
+
+//MENU
+.ftco-menu{
+	.f-menu-img{
+		@include media-breakpoint-down(md){
+			height: 300px;
+		}
+	}
+}
+.menu-wrap{
+	.menu-img{
+		display: block;
+		width: 200px;
+		height: 200px;
+		margin: 0 auto;
+		@include border-radius(50%);
+	}
+	.text{
+		h3{
+			font-size: 22px;
+			a{
+				color: $white;
+			}
+		}
+		.price{
+			font-size: 16px;
+			font-weight: 400;
+			span{
+				color: $primary;
+			}
+		}
+	}
+}
